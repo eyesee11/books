@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+</head>
+<body>
+    <body bgcolor="#F5F5DC"> 
+    <hr>
+    <header>
+        <table>
+            <tr>
+                <td><a href="bookreview.html" target="_blank">Home Page</a></td>
+                <td><a href="contact.html" target="_blank">Contact Us</a></td>
+                <td><a href="review.html" target="_blank">Reviews</a></td>
+                <td><a href="login.html" target="_blank">Log In</a></td>
+                <td><a href="sign_up.html" target="_blank">Sign Up</a></td>
+            </tr>
+        </table>
+    </header>
+    <hr>
+    <div class="form">
+        <h1 class="h1">Log In Here</h1>
+        <form id="loginForm">
+            <p class="para">Email Address</p>
+            <input type="text" name="username" placeholder="Email Address" class="input">
+            <p class="para">Password</p>
+            <input type="password" name="password" placeholder="Password" class="input">
+            <br>
+            <button type="submit" class="submit">Log In</button>
+            <br>
+            <div class="social-login">
+                <p>Or log in with:</p>
+                <button onclick="window.location.href='https://accounts.google.com/signin';">Google</button>
+                <button onclick="window.location.href='https://www.facebook.com/login';">Facebook</button>
+                <button onclick="window.location.href='https://twitter.com/login';">Twitter</button>
+            </div>
+            <br>
+            <a href="sign_up.html" class="a">Don't Have an Account? Sign Up Here</a>
+        </form>
+    </div>
+</body>
+</html>
